@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_hint"
+        android:autofillHints="@string/edit_hint"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_hint"
+        android:autofillHints="@string/edit_hint"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_no"/>
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        android:onClick="addButtonClick"/>
+    <Button
+        android:id="@+id/subtract_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_subtract"
+        android:onClick="subtractButtonClick"/>
+    <Button
+        android:id="@+id/multiply_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_multiply"
+        android:onClick="multiplyButtonClick"/>
+    <Button
+        android:id="@+id/divide_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_divide"
+        android:onClick="divideButtonClick"/>
+
+</LinearLayout>

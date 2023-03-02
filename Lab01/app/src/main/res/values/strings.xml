@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab01_Demler_8K93</string>
+    <string name="edit_hint">Введите число</string>
+    <string name="operation_result">Результат операции: %1$.2f</string>
+    <string name="result_no">Здесь будет результат...</string>
+    <string name="button_add">Сложить два числа</string>
+    <string name="button_subtract">Найти разность двух чисел</string>
+    <string name="button_multiply">Найти произведение двух чисел</string>
+    <string name="button_divide">Найти частное двух чисел</string>
+</resources>
