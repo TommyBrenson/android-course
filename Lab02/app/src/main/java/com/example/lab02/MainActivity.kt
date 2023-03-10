@@ -87,8 +87,4 @@ class MainActivity : AppCompatActivity() {
         initTextView(number)
     }
 
-//    fun getScrollView(): ScrollView {
-//        val scrollView = findViewById<ScrollView>(R.id.scrollView)
-//        return scrollView
-//    }
 }
