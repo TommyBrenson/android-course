@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab09_Demler_8K93</string>
+    <string name="start_service_text">Запустить сервис</string>
+    <string name="stop_service_text">Остановить сервис</string>
+    <string name="get_value_text">Получить значение счетчика</string>
+    <string name="interval_text">Интервал (сек.): %d</string>
+    <string name="reset_button_text">Сбросить счетчик</string>
+</resources>

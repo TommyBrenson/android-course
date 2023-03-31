@@ -39,12 +39,6 @@
             android:layout_height="wrap_content"
             android:textSize="16sp"/>
 
-        <ListView
-            android:id="@+id/coordsList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16sp" />
-
         <EditText
             android:id="@+id/coordInput"
             android:layout_width="wrap_content"
@@ -53,14 +47,29 @@
             android:hint="@string/add_coord_hint"
             android:textSize="16sp"
             />
+        <TextView
+            android:id="@+id/inputError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/input_error"
+            android:textSize="11sp"
+            android:textColor="@color/pale_red"
+            android:visibility="invisible"
+            tools:ignore="SmallSp" />
         <Button
             android:id="@+id/addCoord"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
             android:text="@string/add_coord_text"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            />
+        <ListView
+            android:id="@+id/coordsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
     </LinearLayout>
     
 </LinearLayout>

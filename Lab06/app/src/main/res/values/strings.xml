@@ -2,5 +2,6 @@
     <string name="app_name">Lab06_Demler_8K93</string>
     <string name="location_settings_text">Открыть настройки геолокации</string>
     <string name="add_coord_text">Добавить координату</string>
-    <string name="add_coord_hint">Введите координаты: *ширина* *долгота*</string>
+    <string name="add_coord_hint">Введите координаты</string>
+    <string name="input_error">Координаты должны быть в формате {85.123 48.213}</string>
 </resources>
